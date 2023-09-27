@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 import requests
 import time
-from tkinter import filedialog
-from tkinter import *
+# from tkinter import filedialog
+# from tkinter import *
 
 print('Please input token')
 token = input()
@@ -40,11 +40,11 @@ while True:
             lineNotify(input())
             break
         elif(menu == '2'):
-            root = Tk()
-            root.filename =  filedialog.askopenfilename(initialdir = "/",title = "Select file",filetypes = (("jpeg files","*.jpg"),("all files","*.*")))
-            print (root.filename)
-            notifyFile(root.filename)
-            root.destroy()
+            # root = Tk()
+            # root.filename =  filedialog.askopenfilename(initialdir = "/",title = "Select file",filetypes = (("jpeg files","*.jpg"),("all files","*.*")))
+            # print (root.filename)
+            # notifyFile(root.filename)
+            # root.destroy()
             break
         elif(menu == '3'):
             print("input ID sitcker")
